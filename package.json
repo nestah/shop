@@ -1,0 +1,36 @@
+{
+  "name": "LeVigour",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Ecommerce website ",
+  "main": "Index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "phestus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nestah/MarketPlace/issues"
+  },
+  "homepage": "https://github.com/nestah/MarketPlace#readme",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.2",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cjs-loader": "^0.1.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^6.3.1",
+    "multer": "^1.4.3",
+    "request": "^2.88.2",
+    "socket.io": "^4.5.0"
+  }
+}
